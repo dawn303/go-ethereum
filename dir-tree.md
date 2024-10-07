@@ -1,0 +1,16 @@
+- go-ethereum
+    - cmd `可执行命令`
+        - abidump   `从 Solidity 合约中生成 Go 语言绑定的工具`
+        - abigen    `从 Solidity 合约中生成 Go 语言的 ABI（Application Binary Interface）绑定的工具`
+        - blsync    `同步区块链数据的工具，特别是用于轻客户端同步`
+        - bootnode  `启动一个引导节点，引导节点用于帮助新节点发现网络中的其他节点`
+        - clef      `客户端密钥管理器，用于管理账户和密钥，提供更安全的密钥存储和签名操作`
+        - devp2p    `以太坊网络协议的底层实现，用于开发和测试`
+        - era       `估算以太坊网络中的区块奖励`
+        - ethkey    `管理以太坊密钥的工具`
+        - evm       `以太坊虚拟机（EVM）的命令行界面，允许用户执行 EVM 操作`
+        - geth      `以太坊客户端的主要命令行界面，用于启动以太坊节点`
+        - rlpdump   `RLP（递归长度前缀）编码数据的转储工具`
+        - utils     `辅助工具`
+    - ethclient `客户端接口，通过 rpc 连接到以太坊节点`
+    - rpc `RPC服务器的实现，允许外部程序与以太坊客户端交互`
